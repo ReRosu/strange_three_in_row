@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "trowclick"
+version = "0.1.0"
+description = ""
+authors = ["Rustam Afanasev <rustam.afanasev@tetrika.school>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+clickhouse-connect = "^0.7.12"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
